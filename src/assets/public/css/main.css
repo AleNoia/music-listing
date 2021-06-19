@@ -1,0 +1,93 @@
+* {
+    font-family: 'Signika', sans-serif;
+}
+
+/* ====================== Variables */
+:root {
+    /* Colors */
+    --colorGradient1: linear-gradient(to left, #00b4d8, #0097ca, #0079b9, #005ca4, #023e8a);
+    --colorBlackOpacity1: rgba(0, 0, 0, 0.1);
+    --colorBlackOpacity2: rgba(0, 0, 0, 0.5);
+    --colorWhiteOpacity1: rgba(255, 255, 255, 0.7);
+    --colorTransparent: rgba(255, 255, 255, 0);
+
+    /* Navbar */
+    --navbarHeight: 70px;
+}
+
+
+/* ====================== Navbar */
+.navbar {
+    height:  var(--navbarHeight);
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    background-color: var(--colorTransparent);
+}
+
+.navbar * {
+    color: var(--colorWhiteOpacity1);
+}
+
+/* Brand */
+.navbar-brand{
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-link:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+/* Search */
+.search {
+    width: 40%;
+}
+
+.form-inline {
+    height: 40px;
+    padding: 0 .4em;
+    background-color: var(--colorBlackOpacity1);
+    border-radius: 10px;
+}
+
+.search input {
+    background-color: var(--colorTransparent);
+    border: none;
+    color: white !important;
+}
+.search input:focus {
+    background-color: var(--colorTransparent) !important;
+    border: none;
+}
+.search input::-webkit-input-placeholder {
+    color: var(--colorWhiteOpacity1);;
+ }
+
+.search .btn-primary {
+    background-color: var(--colorTransparent);
+    border: none;
+}
+.search .btn-primary i {
+    color: white;
+}
+
+
+
+
+/* ====================== Carousel */
+.carousel{
+    height: 80vh;
+    background-image: var(--colorGradient1);
+    padding-top: calc(var(--navbarHeight) + 1em);
+}
+
+.carousel *{
+    color: white;
+}
+
+.subTit{
+    font-size: 16px;
+    opacity: .7;
+    margin-bottom: 0;
+}
