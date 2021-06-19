@@ -1,7 +1,4 @@
-// import generateCreate from './create.js';
-// const create = generateCreate();
-
-function DataService() {
+function ApiService() {
 
     let targetUrl = 'http://localhost:3333'
 
@@ -30,4 +27,4 @@ function DataService() {
     }
 }
 
-export default DataService;
+export default ApiService;

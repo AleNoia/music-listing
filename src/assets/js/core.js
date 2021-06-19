@@ -1,7 +1,7 @@
-import generateDataService from './services/DataServices.js';
+import generateDataService from './services/ApiService.js';
 const get = generateDataService();
-import generateHtmlFactories from './factories/HtmlFactories.js';
-const build = generateHtmlFactories();
+import CarouselFactory from './factories/CarouselFactory.js';
+const build = CarouselFactory();
 
 function Core() {
 

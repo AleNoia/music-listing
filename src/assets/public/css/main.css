@@ -1,5 +1,15 @@
+/* ====================== Projecrt */
 * {
     font-family: 'Signika', sans-serif;
+}
+.subTit{
+    font-size: 16px;
+    opacity: .7;
+    margin-bottom: 0;
+}
+.author{
+    opacity: .7;
+    font-size: 22px;
 }
 
 /* ====================== Variables */
@@ -29,12 +39,10 @@
 .navbar * {
     color: var(--colorWhiteOpacity1);
 }
-
 /* Brand */
 .navbar-brand{
     color: hsl(0, 0%, 100%);
 }
-
 .nav-link:hover{
     color: hsl(0, 0%, 100%);
 }
@@ -43,14 +51,12 @@
 .search {
     width: 40%;
 }
-
 .form-inline {
     height: 40px;
     padding: 0 .4em;
     background-color: var(--colorBlackOpacity1);
     border-radius: 10px;
 }
-
 .search input {
     background-color: var(--colorTransparent);
     border: none;
@@ -81,13 +87,32 @@
     background-image: var(--colorGradient1);
     padding-top: calc(var(--navbarHeight) + 1em);
 }
-
 .carousel *{
     color: white;
 }
-
-.subTit{
-    font-size: 16px;
-    opacity: .7;
-    margin-bottom: 0;
+.carousel-item .btn{
+    width: 55px;
+    height: 55px;
+    border-radius:50%;
+    font-size: 20px;
+}
+.carousel-item .btn i{
+    margin-left: 4px;
+}
+.carousel .card{
+    max-width: 330px;
+    border-radius: 10px;
+    background-color: var(--colorTransparent);
+}
+audio{
+    width: 100%;
+}
+.audioContent{
+    background-color: white;
+}
+.previewTrack{
+    height: 300px !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 7%;
 }
