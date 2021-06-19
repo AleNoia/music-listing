@@ -1,0 +1,17 @@
+{
+  "name": "music-listing",
+  "version": "1.0.0",
+  "description": "a music listing interface",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Noia",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0"
+  }
+}
