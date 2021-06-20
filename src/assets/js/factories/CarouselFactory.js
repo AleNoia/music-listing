@@ -55,7 +55,6 @@ function CarouselFactory() {
             // Autor da música da sessão track
             build.Author('.author', res.tracks.data[0].artist.name)
 
-            console.log(res)
         })
 
         // Chamando o Carousel
