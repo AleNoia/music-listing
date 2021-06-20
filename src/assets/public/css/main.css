@@ -2,6 +2,19 @@
 * {
     font-family: 'Signika', sans-serif;
 }
+body{
+    background-color: var(--color2);
+}
+.card{
+    padding: 1em;
+    border-radius: 10px;
+}
+.btn-group{
+    width: 50%;
+}
+.btn-group .btn{
+    height: 70px;
+}
 .subTit{
     font-size: 16px;
     opacity: .7;
@@ -15,8 +28,10 @@
 /* ====================== Variables */
 :root {
     /* Colors */
+    --color2: #bbebf5;
     --colorGradient1: linear-gradient(to left, #00b4d8, #0097ca, #0079b9, #005ca4, #023e8a);
     --colorBlackOpacity1: rgba(0, 0, 0, 0.1);
+    --colorBlackOpacity11: rgba(0, 0, 0, 0.2);
     --colorBlackOpacity2: rgba(0, 0, 0, 0.5);
     --colorWhiteOpacity1: rgba(255, 255, 255, 0.7);
     --colorTransparent: rgba(255, 255, 255, 0);
@@ -29,7 +44,7 @@
 /* ====================== Navbar */
 .navbar {
     height:  var(--navbarHeight);
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 0;
     z-index: 99;
@@ -95,12 +110,20 @@
     height: 55px;
     border-radius:50%;
     font-size: 20px;
+    border: none;
+    transition: ease .2s;
+    background-color: var(--colorBlackOpacity1);
+}
+.carousel-item .btn:hover{
+    transform: scale(1.2);
+    background-color: var(--colorBlackOpacity11);
 }
 .carousel-item .btn i{
     margin-left: 4px;
 }
 .carousel .card{
     max-width: 330px;
+    padding: 0;
     border-radius: 10px;
     background-color: var(--colorTransparent);
 }
@@ -115,4 +138,11 @@ audio{
 }
 .carousel-control-prev, .carousel-control-next{
     width: 7%;
+}
+
+.cardProject{
+    width: 100%; 
+}
+.card-img{
+    max-width: 170px;
 }

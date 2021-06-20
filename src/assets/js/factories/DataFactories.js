@@ -1,4 +1,4 @@
-function DataFactories() {
+function DataFactory() {
 
     function DeezerPlay(classHtml, link) {
         $(classHtml).attr('href', link)
@@ -16,13 +16,18 @@ function DataFactories() {
         $(classHtml).attr('src', trackImage)
     }
 
+    function Title(classHtml, tit) {
+        $(classHtml).text(tit);
+    }
+
     return {
         DeezerPlay,
         Author,
         Preview,
         Image,
+        Title,
     }
 
 }
 
-export default DataFactories;
+export default DataFactory;
