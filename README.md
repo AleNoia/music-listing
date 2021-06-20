@@ -36,7 +36,7 @@ Uma interface de listagem de músicas utilizando a API da Deezer
 
 # <a name="Installation"></a>🛠 Instalação
 
-Você precisa fazer o download do [git](https://git-scm.com) incialmente
+Você precisa fazer o download do [git](https://git-scm.com) e do [node](https://nodejs.org/en/download/) incialmente
 
 Execute este comando para clonar o reprositório:
 
@@ -45,6 +45,16 @@ Execute este comando para clonar o reprositório:
 git clone https://github.com/AleNoia/music-listing.git
 
 ```
+
+Execute este comando para instalar as dependências da aplicação:
+
+```
+
+npm install
+
+```
+
+
 ### 🎲 Executando
 
 Execute o proxy do projeto utilizando [node](https://nodejs.org/en/download/) ou [nodemon](https://www.npmjs.com/package/nodemon) no arquivo ```proxy.js``` na pasta ```src/assets/js``` 
