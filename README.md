@@ -45,7 +45,7 @@ git clone https://github.com/AleNoia/music-listing.git
 ```
 ### 🎲 Executando
 
-Execute o Back-end do projeto utilizando [node](https://nodejs.org/en/download/) ou [nodemon](https://www.npmjs.com/package/nodemon) no arquivo ```proxy.js``` na pasta ```src/assets/js``` 
+Execute o proxy do projeto utilizando [node](https://nodejs.org/en/download/) ou [nodemon](https://www.npmjs.com/package/nodemon) no arquivo ```proxy.js``` na pasta ```src/assets/js``` 
 
 Execute o Front-end do projeto: arquivo ```index.html``` na pasta ```src``` 
 
