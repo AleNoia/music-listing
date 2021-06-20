@@ -1,11 +1,12 @@
 function ListSectionFactory() {
 
     function ListSection(type, array) {
-        $('.listSection').html('')
+        $('.listSection').html('') // Zerando o html para a entrada de uma nova lista
 
-        let img
-        let previewHtml
+        let img // Armazenando o caminho da imagem
+        let previewHtml // Armazenando o caminho do preview da musica
 
+        // Validando de acordo com o tipo pois os caminhos no obj são diferentes
         if (type == 'musics') {
             array = array.tracks.data
             img = 'value.album.cover_medium'
@@ -32,6 +33,7 @@ function ListSectionFactory() {
             img = 'value.picture_medium'
         }
 
+        // Inserindo o preview se o tipo for 'musics'
         function preview(){
             if(type == musics){
                 return `
@@ -45,6 +47,7 @@ function ListSectionFactory() {
 
         }
 
+        // Gerando o card de acordo com o tipo
         $.each(array, function (key, value) {
             $('.listSection').append(`
             <div class="card cardProject mb-3">
@@ -57,7 +60,7 @@ function ListSectionFactory() {
                   <h5 class="card-title">${key + 1}</h5>
                   <h5 class="card-title">${type == 'artists' ? value.name : value.title}</h5>
                   ${preview()}
-                  <h4 class="subTit">${value.name}</h4>
+                  <h4 class="subTit">${type == 'artists' ? value.name : value.title}</h4>
                 </div>
               </div>
             </div>

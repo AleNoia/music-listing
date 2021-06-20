@@ -8,12 +8,14 @@ function PopularSectionFactories() {
 
     async function PopularSection() {
 
-        let array;
+        let array; // Array com a lista
 
+        // Criando um array com a lista de musica
         get.Popular().then(res => {
             array = res
         })
 
+        // Ouvindo o evento de click e criando a lista de acordo com o tipo (musica, artista, podcast e album)
         $(".btn-group").click(function (event) {
             let targ = event.target.id
             if(targ == 'musics') build.ListSection('musics', array)

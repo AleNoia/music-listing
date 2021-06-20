@@ -1,6 +1,3 @@
-import generateDataService from './services/ApiService.js';
-const get = generateDataService();
-
 import CarouselFactory from './factories/CarouselFactory.js';
 const build = CarouselFactory();
 
@@ -11,13 +8,13 @@ const buildSection = PopularSectionFactories();
 function Core() {
 
     function start() {
-        home()
+        home() // Iniciando a página home
     }
 
     // Função para inicar a página home
     function home() {
-        build.Carousel()
-        buildSection.PopularSection();
+        build.Carousel() //Iniciando o Carousel
+        buildSection.PopularSection(); // Iniciando a listagem
     }
 
 
