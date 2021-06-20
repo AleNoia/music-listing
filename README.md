@@ -10,6 +10,8 @@ Uma interface de listagem de músicas utilizando a API da Deezer
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AleNoia/music-listing?color=%2304D361"> <img alt="Repository size" src="https://img.shields.io/github/repo-size/AleNoia/music-listing"> <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AleNoia/music-listing"></a>
 </p>
 
+![image](https://user-images.githubusercontent.com/82424777/122660889-6f08aa00-d15b-11eb-8e13-148b009fd0c7.png)
+
 
 # 📌 Índice
 * 💡 [Funcionalidades](#features)
