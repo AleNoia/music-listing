@@ -54,6 +54,7 @@ function ListSectionFactory() {
                 <div class="card-body">
                   <h5 class="card-title">${key + 1}</h5>
                   <h5 class="card-title">${type == 'artists' ? value.name : value.title}</h5>
+                  <h4 class="subTit">${type == 'artists' ? value.name : value.title}</h4>
                   ${
                       (function (){
                           if(preview()){
@@ -67,7 +68,7 @@ function ListSectionFactory() {
                           }
                       })()
                   }
-                  <h4 class="subTit">${type == 'artists' ? value.name : value.title}</h4>
+                  
                 </div>
               </div>
             </div>
