@@ -30,7 +30,6 @@ Uma interface de listagem de músicas utilizando a API da Deezer
   * Playlists
   * Álbuns
 
-***
 
 ***
 
