@@ -37,6 +37,8 @@ Uma interface de listagem de músicas utilizando a API da Deezer
 
 Você precisa fazer o download do [git](https://git-scm.com) e do [node](https://nodejs.org/en/download/) incialmente
 
+Crie uma conta na [API da Deezer](https://developers.deezer.com/api)  
+
 Execute este comando para clonar o reprositório:
 
 ```git
