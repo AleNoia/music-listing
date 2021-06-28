@@ -55,7 +55,7 @@ function ListSectionFactory() {
                   <h5 class="card-title">${key + 1}</h5>
                   <h5 class="card-title">${type == 'artists' ? value.name : value.title}</h5>
                   <h4 class="subTit">${type == 'artists' ? value.name : value.title}</h4>
-                  ${
+                  ${ // Verificando se o tipo é music para inserir o preview
                       (function (){
                           if(preview()){
                               return `
@@ -68,7 +68,6 @@ function ListSectionFactory() {
                           }
                       })()
                   }
-                  
                 </div>
               </div>
             </div>

@@ -4,7 +4,6 @@ const build = CarouselFactory();
 import PopularSectionFactories from './factories/PopularSectionFactories.js';
 const buildSection = PopularSectionFactories();
 
-
 function Core() {
 
     function start() {
@@ -16,10 +15,6 @@ function Core() {
         build.Carousel() //Iniciando o Carousel
         buildSection.PopularSection(); // Iniciando a listagem
     }
-
-
-
-
 
     return {
         start,

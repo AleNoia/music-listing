@@ -35,6 +35,8 @@ body{
     --colorBlackOpacity2: rgba(0, 0, 0, 0.5);
     --colorWhiteOpacity1: rgba(255, 255, 255, 0.7);
     --colorTransparent: rgba(255, 255, 255, 0);
+    --shadow1: 0px -10px 30px hsla(0, 0%, 6%, 0.2);
+    --shadow2: hsla(0, 0%, 0%, 0.25) 0px 5px 10px;
 
     /* Navbar */
     --navbarHeight: 70px;
@@ -113,6 +115,7 @@ body{
     border: none;
     transition: ease .2s;
     background-color: var(--colorBlackOpacity1);
+    box-shadow: var(--shadow2);
 }
 .carousel-item .btn:hover{
     transform: scale(1.2);
@@ -146,3 +149,4 @@ audio{
 .card-img{
     max-width: 170px;
 }
+

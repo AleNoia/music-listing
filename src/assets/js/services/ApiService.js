@@ -8,7 +8,7 @@ function ApiService() {
         return response.json()
     }
 
-    // Fazendo requpsição da API de um album, artist, history, playlist, podcast, radio, track e user
+    // Fazendo requisição da API de um album, artist, history, playlist, podcast, radio, track e user
     async function Search(value) {
         let response = await fetch(targetUrl + `/search?q=${value}`)
         return response.json()

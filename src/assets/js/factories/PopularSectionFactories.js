@@ -5,7 +5,7 @@ import generateListSectionFactory from './ListSectionFactory.js';
 const build = generateListSectionFactory();
 
 function PopularSectionFactories() {
-
+    
     async function PopularSection() {
 
         let array; // Array com a lista
